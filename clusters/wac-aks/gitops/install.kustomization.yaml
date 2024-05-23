@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
- name: xleontiev-install  # v spoločnom klastri je nasadených viacero takýchto objektov
+ name: meetings-install  # v spoločnom klastri je nasadených viacero takýchto objektov
  namespace: wac-hospital
 spec:
  wait: true
@@ -10,4 +10,4 @@ spec:
  prune: true
  sourceRef:
      kind: GitRepository
-     name: xleontiev-gitops-repo
+     name: meetings-gitops-repo
