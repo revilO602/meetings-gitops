@@ -11,7 +11,7 @@ spec:
                                     # pri navigácii na zoznam čakajúcich
       path: meetings      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Meetings      # názov mikro aplikácie
-      details: Lists online meetings between pacients and doctors. Made by Oliver Leontiev.
+      details: Online meetings between pacients and doctors. Made by Oliver Leontiev.
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
