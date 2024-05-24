@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/meetings-ufe
+
+components:
+ - ../../../components/version-developers
