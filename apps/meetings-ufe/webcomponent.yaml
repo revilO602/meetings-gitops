@@ -3,18 +3,23 @@ kind: WebComponent
 metadata:
   name: meetings-ufe
 spec:
-  module-uri: http://meetings-ufe.wac-hospital/build/meetings-ufe.esm.js
-                     # module web komponentu pre tento mikroFE
-                     # - umiestnený v namespace wac-hospital
+  module-uri:
+    http://meetings-ufe.wac-hospital/build/meetings-ufe.esm.js
+    # module web komponentu pre tento mikroFE
+    # - umiestnený v namespace wac-hospital
   navigation:
-    - element: meetings-app    # element, ktorý bude vložený na stránku
-                                    # pri navigácii na zoznam čakajúcich
-      path: meetings      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: Meetings      # názov mikro aplikácie
+    - element: meetings-app # element, ktorý bude vložený na stránku
+      attributes:
+        - name: api-base
+          value: http://localhost:5000/api
+      path: meetings # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      title: Meetings # názov mikro aplikácie
       details: Online meetings between pacients and doctors. Made by Oliver Leontiev.
-  preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
-  proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
-                                    # musí byť táto hodnota nastavená na true
-  hash-suffix: 1.1.0                # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
-                                    # sa mení názov URL pre modul a tým je možné predísť problémom
-                                    # s verziami vo vyrovnávacích pamätiach
+  preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
+  proxy:
+    true # pre komponenty v rámci klastra, neprístupné na verejnej sieti
+    # musí byť táto hodnota nastavená na true
+  hash-suffix:
+    v1alpha2 # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+    # sa mení názov URL pre modul a tým je možné predísť problémom
+    # s verziami vo vyrovnávacích pamätiach
