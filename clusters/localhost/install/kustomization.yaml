@@ -18,3 +18,4 @@ components:
 
 patches:
   - path: patches/meetings-webapi.service.yaml
+  - path: patches/mongodb-auth.secret.yaml
