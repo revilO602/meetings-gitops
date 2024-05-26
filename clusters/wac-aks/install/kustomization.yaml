@@ -4,12 +4,12 @@ kind: Kustomization
 namespace: wac-hospital
 
 commonLabels:
- app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: meetings
+  app.kubernetes.io/part-of: wac-hospital
+  app.kubernetes.io/name: meetings
 
 resources:
- - ../../../apps/meetings-ufe
-
+  - ../../../apps/meetings-ufe
+  - ../../../apps/meetings-webapi
 
 components:
- - ../../../components/version-release
+  - ../../../components/version-release
