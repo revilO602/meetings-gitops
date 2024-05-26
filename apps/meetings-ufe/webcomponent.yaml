@@ -20,6 +20,6 @@ spec:
     true # pre komponenty v rámci klastra, neprístupné na verejnej sieti
     # musí byť táto hodnota nastavená na true
   hash-suffix:
-    1.2.1 # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+    1.3.0 # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
     # sa mení názov URL pre modul a tým je možné predísť problémom
     # s verziami vo vyrovnávacích pamätiach
