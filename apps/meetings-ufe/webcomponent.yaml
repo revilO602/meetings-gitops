@@ -11,7 +11,7 @@ spec:
     - element: meetings-app # element, ktorý bude vložený na stránku
       attributes:
         - name: api-base
-          value: http://localhost:30081/api
+          value: /meetings-api
       path: meetings # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Meetings # názov mikro aplikácie
       details: Online meetings between pacients and doctors. Made by Oliver Leontiev.
