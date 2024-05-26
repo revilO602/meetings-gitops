@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: revilo602/meetings-ufe
     newName: revilo602/meetings-ufe
-    newTag: 1.2.1 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.2.0 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
   - name: revilo602/meetings-webapi
     newName: revilo602/meetings-webapi
     newTag: 1.1.0
