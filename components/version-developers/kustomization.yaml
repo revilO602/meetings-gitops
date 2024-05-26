@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: revilo602/meetings-webapi
     newName: revilo602/meetings-webapi # {"$imagepolicy":  "wac-hospital:meetings-webapi:name"}
-    newTag: main # {"$imagepolicy": "wac-hospital:meetings-webapi:tag"}
+    newTag: main.20240526.1111 # {"$imagepolicy": "wac-hospital:meetings-webapi:tag"}
   - name: revilo602/meetings-ufe
     newName: revilo602/meetings-ufe # {"$imagepolicy":  "wac-hospital:meetings-ufe:name"}
     newTag: main # {"$imagepolicy": "wac-hospital:meetings-ufe:tag"}
